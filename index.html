@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>이어령 개인 포트폴리오</title>
+
+    <!-- favicon -->
+    <link rel="icon" href="./images/favicon.png" type="image/x-icon" sizes="16x16">
+    <!-- fontawesome 6.2 cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <!-- fullpage css -->
+    <link rel="stylesheet" href="./js/jquery.fullPage.css">
+    <!-- swiper slider css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <!-- uikit css -->
+    <link rel="stylesheet" href="./js/uikit/uikit.min.css">
+    <!-- featherlight css -->
+    <link rel="stylesheet" href="./js/featherlight/featherlight.css">
+    <!-- index css -->
+    <link rel="stylesheet" href="index.css">
+</head>
+<div class="custom_cursor">
+    <div class="circle"></div>
+</div>
+
+<body>
+    <div id="mouse-cursor">
+        <div></div>
+    </div>
+    <header class="header">
+        <div class="header_inner">
+            <div class="logo"><img src="./images/logo.png" alt="로고"></div>
+            <nav>
+                <div class="gnb">
+                    <img src="./images/b_logo.png" alt="black logo">
+                    <div class="gnb_menu">
+                        <a href="#aboutme">about me</a>
+                        <a href="#skills">my skills</a>
+                        <a href="#portfolio">publishing</a>
+                        <a href="#practical">practical publishing</a>
+                        <a id="point2" href="#contact">contect</a>
+                    </div>
+                    <img src="./images/footer_fig.png" alt="logo">
+                </div>
+            </nav>
+            <div class="trigger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+    <div id="fullpage">
+        <div class="section slide1 active">
+            <div class="slide_inner">
+                <span>반갑습니다. <br> 웹퍼블리셔 이어령입니다.</span>
+                <div class="imgWrap">
+                    <img class="bgImg bg_img1" src="./images/title_top.png" alt="lee eo ryoung">
+                    <img class="bgImg bg_img2" src="./images/title_bottom.png" alt="portfolio">
+                    <img class="bgImg bg_img3" src="./images/welcomefigure_1.png" alt="back image1">
+                    <img class="bgImg bg_img4" src="./images/welcomefigure_2.png" alt="back image2">
+                    <img class="bgImg bg_img5" src="./images/welcomefigure_3.png" alt="back image3">
+                </div>
+            </div>
+        </div>
+        <div class="section slide2">
+            <div class="slide_inner">
+                <div class="profileWrap">
+                    <div class="profile_image">
+                        <div class="tooltip">
+                            <div class="tip_box"># 꼼꼼함</div>
+                            <div class="tip_box"># 성실함</div>
+                            <div class="tip_box"># 협동적</div>
+                            <div class="tip_box"># 도전적</div>
+                            <div class="tip_box"># istj</div>
+                        </div>
+                        <img src="https://via.placeholder.com/400x530" alt="임시">
+                    </div>
+                    <div class="profile_text">
+                        <strong><span>몰입</span>의<span>즐거움</span>을 아는, 웹 퍼블리셔 이어령입니다.</strong>
+                        <p>
+                            원하는<span> 작업물이 나올 때까지 배우고 노력</span>하며,<br>
+                            작업물이 원하는 대로 나왔을 때의 <span>성취감</span>을 좋아합니다.
+                            <br>
+                            <br>
+                            탄탄한 코드를 추구하며 기본기를 잘 갖춘 퍼블리셔,<br>
+                            늘 탐구하고 배우려는 퍼블리셔,<br>
+                            팀원들과 소통하며 맞춰가는 퍼블리셔,
+                            <br>
+                            <br>
+                            그러한 퍼블리셔이며 앞으로도 계속해서 노력하는 웹 퍼블리셔가 되도록 하겠습니다.
+                        </p>
+                        <div class="career">
+                            <ul>
+                                <li>2021.09 ~ 재직중 (주)라이트솔루션</li>
+                                <li>2021.11 ~ 2022.05 MAHA 사이트 구축 및 모바일 앱 제작 / PSD 변환 파일 제작 (7개월)</li>
+                                <li>2021.10 ~ 2022.04 O&M 사이트 구축 및 모바일 앱 제작 / PSD 변환 파일 제작 (7개월)</li>
+                                <li>2021.09 ~ 2021.10 LG U+ 홈서비스 플랫폼 아는언니 (2개월)</li>
+                                <li>2021.03 ~ 2021.08 그린컴퓨터아카데미 반응형 웹 퍼블리싱 정규과정</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section slide3">
+            <div class="slide_inner">
+                <div class="speech">
+                    제 skill 을 클릭 해주세요!
+                </div>
+                <div class="center_img">
+                    <img src="./images/skill.png" alt="my skill">
+                </div>
+                <div class="mindmap">
+                    <div class="main_menu programing">
+                        <span></span>
+                        <div>programing</div>
+                    </div>
+                    <div class="main_menu design">
+                        <span></span>
+                        <div>design</div>
+                    </div>
+                    <div class="main_menu study">
+                        <span></span>
+                        <div>study</div>
+                    </div>
+                    <div class="sub_menu">
+                        <!-- programing -->
+                        <div id="proSubMenu1"><span></span>html</div>
+                        <div id="proSubMenu2"><span></span>css</div>
+                        <div id="proSubMenu3"><span></span>js</div>
+                        <div id="proSubMenu4"><span></span>cafe24</div>
+                        <!-- design -->
+                        <div id="desginSubMenu1"><span></span>photoshop illustrator</div>
+                        <div id="desginSubMenu2"><span></span>zeplin</div>
+                        <div id="desginSubMenu3"><span></span>figma</div>
+                        <!-- study -->
+                        <div id="studySubMenu1"><span></span>vue</div>
+                        <div id="studySubMenu2"><span></span>react</div>
+                        <div id="studySubMenu3"><span></span>sass,scss</div>
+                        <div id="studySubMenu4"><span></span>three.js</div>
+                        <div id="studySubMenu5"><span></span>gsap</div>
+                    </div>
+                </div>
+                <!-- modal -->
+                <!-- programing -->
+                <div class="modal modal_html">
+                    <div class="modal_text">
+                        <button class="close_btn">
+                            <i class="fa-solid fa-xmark"></i>
+                        </button>
+                        <h3>html</h3>
+                        <p>
+                            웹 표준과 웹 접근성을 준수하는 html 정보
+                            구조설계로 웹사이트 퍼블리싱을 해오고 있습니다.
+                            특히 웹표준을 위해 html5에서 권장하는 마크업 방식과
+                            시멘틱 태그를 사용해 전체 레이아웃을 설계합니다.
+                        </p>
+                    </div>
+                </div>
+                <div class="modal modal_css">
+                    <div class="modal_text">
+                        <button class="close_btn">
+                            <i class="fa-solid fa-xmark"></i>
+                        </button>
+                        <h3>css</h3>
+                        <p>
+                            css 코딩은 IE를 지원도 충분히 고려하는 cross browsing
+                            을 위해 안정적인 css 속성을 사용해서 html elememts를
+                            배치하고 디자인합니다. 특별한 경우 css3에서 새롭게 지원하는
+                            속성을 활용해서 좀 더 다양한 css 배치와 디자인을 합니다.
+                            <br>
+                            <br>
+                            반응형 웹 제작에 있어서 cross browsing을 위해
+                            안정적인기존 방식인 float,position,media query를
+                            활용한 반응형웹 제작 경험을 충분히 가지고 있습니다.
+                            <br>
+                            <br>
+                            주로 flex로 제작하며 gird 방식으로 반응형 웹사이트 제작도
+                            충분히 가능합니다.
+                        </p>
+                    </div>
+                </div>
+                <div class="modal modal_js">
+                    <div class="modal_text">
+                        <button class="close_btn">
+                            <i class="fa-solid fa-xmark"></i>
+                        </button>
+                        <h3>jquery / javascript</h3>
+                        <p>
+                            네비게이션,텝메뉴,어코디언 등 웹 퍼블리싱에
+                            반드시 필요한 상호작용을 위한 제이쿼리는
+                            플러그인을 사용하지 않고 순수한 제이쿼리
+                            코딩으로 제작하며, 간단한 인터랙션 또한 제이쿼리와 자바스크립트로 표현 가능합니다.
+                            <br>
+                            <br>
+                            오픈 소스와 플러그인의 경우 이해하고 수정하여 원하는 페이지를 구현할 수 있습니다.
+                        </p>
+                    </div>
+                </div>
+                <div class="modal modal_cafe24">
+                    <div class="modal_text">
+                        <button class="close_btn">
+                            <i class="fa-solid fa-xmark"></i>
+                        </button>
+                        <h3>cafe24</h3>
+                        <p>
+                            현업에서 사용해본 경험이 있으며, html과 css 수정이 가능하고 이미지 수정 및 삽입이 가능합니다.
+                        </p>
+                    </div>
+                </div>
+                <!-- design -->
+                <div class="modal modal_adoby">
+                    <div class="modal_text">
+                        <button class="close_btn">
+                            <i class="fa-solid fa-xmark"></i>
+                        </button>
+                        <h3>photoshop / illustrator</h3>
+                        <p>
+                            웹사이트 ui 디자인 작업, 이벤트 디자인,
+                            배너 디자인을 위한 포토샵 사용에 익숙합니다.
+                        </p>
+                    </div>
+                </div>
+                <div class="modal modal_adoby">
+                    <div class="modal_text">
+                        <button class="close_btn">
+                            <i class="fa-solid fa-xmark"></i>
+                        </button>
+                        <h3>photoshop / illustrator</h3>
+                        <p>
+                            웹사이트 ui 디자인 작업, 이벤트 디자인,
+                            배너 디자인을 위한 포토샵 사용에 익숙합니다.
+                        </p>
+                    </div>
+                </div>
+                <div class="modal modal_zeplin">
+                    <div class="modal_text">
+                        <button class="close_btn">
+                            <i class="fa-solid fa-xmark"></i>
+                        </button>
+                        <h3>zeplin</h3>
+                        <p>
+                            현업 프로젝트에서 사용 경험이 있으며, 디자이너분께서 작업하신 걸 토대로 자료 다운 및 퍼블리싱 작업이 가능합니다.
+                        </p>
+                    </div>
+                </div>
+                <div class="modal modal_figma">
+                    <div class="modal_text">
+                        <button class="close_btn">
+                            <i class="fa-solid fa-xmark"></i>
+                        </button>
+                        <h3>figma</h3>
+                        <p>
+                            현업에서 사용 경험은 없지만, 포트폴리오 디자인 작업을 피그마로 작업했으며 그 작업을 토대로 퍼블리싱 작업을 했습니다.
+                        </p>
+                    </div>
+                </div>
+                <!-- study -->
+
+            </div>
+        </div>
+        <div class="section slide4 swiper-container">
+            <div class="swiper-wrapper slide_inner">
+                <div class="swiper-slide">
+                    <div class="slide_text">
+                        <h1>o<span>&</span>m ssom</h1>
+                        <ul>
+                            <li>작업기간: 7개월</li>
+                            <li>기여도: html,css 기여도 90% , js 기여도 30%</li>
+                            <li>제작방식: html,css,slick slider 사용</li>
+                            <li>작업인원: 2명</li>
+                            <li>참고사항: 반응형 사이트가 아니므로 모바일 버전은 따로 제작하였습니다.</li>
+                        </ul>
+                        <div class="slide_btns">
+                            <button><a href="./portfolio/web-portfolio/01_onm/TS_onm/main.html" data-featherlight="iframe">view</a></button>
+                            <button><a href="./portfolio/web-portfolio/01_onm/TS_mobile/mobile-mockup-single.html" data-featherlight="iframe">single view</a></button>
+                            <button><a href="./portfolio/web-portfolio/01_onm/TS_mobile/mobile-mockup-multi.html" data-featherlight="iframe">multi view</a></button>
+                        </div>
+                    </div>
+                    <div class="slide_img web_mok">
+                        <img src="./images/slide04_mockup_o&m_web.png" alt="o&m 웹 예시 이미지">
+                        <img class="slide_img2" src="./images/slide04_mockup_o&m_app.png" alt="o&m 앱 예시 이미지">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="slide_text">
+                        <h1>maha</h1>
+                        <ul>
+                            <li>작업기간: 7개월</li>
+                            <li>기여도: html,css 기여도 70% , js 기여도 30%</li>
+                            <li>제작방식: html,css 사용</li>
+                            <li>작업인원: 1명</li>
+                            <li>참고사항: admin페이지와 app버전 제작하였습니다.</li>
+                        </ul>
+                        <div class="slide_btns">
+                            <button><a href="./portfolio/web-portfolio/02_maha/BO/page_list/BO_ContractList.html" data-featherlight="iframe" class="mobile-project">view</a></button>
+                            <button><a href="./portfolio/web-portfolio/02_maha/front_app/mobile-mockup-multi.html" data-featherlight="iframe" class="mobile-ui">multi view</a></button>
+                        </div>
+                    </div>
+                    <div class="slide_img web_mok">
+                        <img src="./images/slide04_mockup_maha_web.png" alt="maha 어드민 페이지 pc 버전 예시">
+                        <img class="slide_img2" src="./images/slide04_mockup_maha_app.png" alt="maha 모바일 버전 예시">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="slide_text">
+                        <h1>wnc</h1>
+                        <ul>
+                            <li>작업기간: 7일</li>
+                            <li>기여도: 100%</li>
+                            <li>제작방식: html,css,js,slick 사용</li>
+                            <li>작업인원: 1명</li>
+                            <li>참고사항: 직접 디자인하고 기획한 NGO 사이트 입니다.</li>
+                        </ul>
+                        <div class="slide_btns">
+                            <button><a href="./portfolio/web-portfolio/05_ngo/index.html" data-featherlight="iframe" class="mobile-project">view</a></button>
+                            <button><a href="./portfolio/web-portfolio/05_ngo/responsive-mockup-single.html" data-featherlight="iframe" class="mobile-ui">mobile</a></button>
+                        </div>
+                    </div>
+                    <div class="slide_img web_mok">
+                        <img src="./images/slide04_mockup_ngo_web.png" alt="ngo pc버전 예시">
+                        <img class="slide_img2" src="./images/slide04_mockup_ngo_app.png" alt="ngo 모바일 예시">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="slide_text">
+                        <h1>chrome</h1>
+                        <ul>
+                            <li>작업기간: 3일</li>
+                            <li>기여도: 100%</li>
+                            <li>제작방식: html,css,js 사용</li>
+                            <li>작업인원: 1명</li>
+                            <li>참고사항: 모든 퍼블리싱 하드코딩으로 제작하였습니다.</li>
+                        </ul>
+                        <div class="slide_btns">
+                            <button><a href="./portfolio/web-portfolio/04_chrome/index.html" data-featherlight="iframe" class="mobile-project">view</a></button>
+                            <button><a href="./portfolio/web-portfolio/04_chrome/responsive-mockup-single.html" data-featherlight="iframe" class="mobile-ui">mobile</a></button>
+                        </div>
+                    </div>
+                    <div class="slide_img web_mok">
+                        <img src="./images/slide04_mockup_chrome_web.png" alt="크롬 랜딩페이지 pc 버전 예시">
+                        <img class="slide_img2" src="./images/slide04_mockup_chrome_app.png" alt="크롬 랜딩페이지 모바일 버전 예시">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="slide_text">
+                        <h1>obey mobile app</h1>
+                        <ul>
+                            <li>작업기간: 10일</li>
+                            <li>기여도: 100%</li>
+                            <li>제작방식: html,css,js,slick 사용</li>
+                            <li>작업인원: 1명</li>
+                        </ul>
+                        <div class="slide_btns">
+                            <button><a href="./portfolio/mobile/proto/prototype.html" data-featherlight="iframe" class="mobile-ui">ui 디자인</a></button>
+                            <button><a href="./portfolio/mobile/mobile-mockup-multi.html" data-featherlight="iframe" class="mobile-multi">multi view</a></button>
+                            <button><a href="./portfolio/mobile/mobile-mockup-single.html" data-featherlight="iframe" class="mobile-single">single view</a></button>
+                        </div>
+                    </div>
+                    <div class="slide_img app_mok">
+                        <img src="./images/slide04_mockup_obeyapp.png" alt="obey 예시 이미지">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="slide_text">
+                        <h1>cyworld</h1>
+                        <ul>
+                            <li>작업기간: 3일</li>
+                            <li>기여도: 100%</li>
+                            <li>제작방식: html,css,js 사용</li>
+                            <li>작업인원: 1명</li>
+                        </ul>
+                        <div class="slide_btns">
+                            <button><a href="./portfolio/web-portfolio/03_cyworld/index.html" data-featherlight="iframe">view</a></button>
+                        </div>
+                    </div>
+                    <div class="slide_img web_mok">
+                        <img src="./images/slide04_mockup_cyworld.png" alt="싸이월드 예시 이미지">
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+        <div class="section slide5">
+            <div class="slide_inner">
+                <h1>practical publishing</h1>
+                <div class="practicalWrap">
+                    <div class="practical_section card">
+                        <div class="title">card ui</div>
+                        <div class="imgsWrap" uk-lightbox="animation: fade">
+                            <a href="./portfolio/practical/card-ui/01/index.html">
+                                <img src="./images/portfolio-cardui-01.png" alt="남성쇼핑몰 카드 ui">
+                                <div class="overlay">men's shopping mall card ui<span>제작방식: html/css</span></div>
+                            </a>
+                            <a href="./portfolio/practical/card-ui/02/index.html">
+                                <img src="./images/portfolio-cardui-02.png" alt="세계도시 카드 ui">
+                                <div class="overlay">world best cities card ui<span>제작방식: html/css</span></div>
+                            </a>
+                            <a href="./portfolio/practical/card-ui/03/index.html">
+                                <img src="./images/portfolio-cardui-03.png" alt="퍼블리싱 포트폴리오">
+                                <div class="overlay">publishing portfolio<span>제작방식: html/css</span></div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="practical_section form">
+                        <div class="title">form</div>
+                        <div class="imgsWrap" uk-lightbox="animation: fade">
+                            <a href="./portfolio/practical/form/01/index.html">
+                                <img src="./images/portfolio-form-01.png" alt="반응형 상담신청서 폼">
+                                <div class="overlay">반응형 상담신청서 form<span>제작방식: html/css</span></div>
+                            </a>
+                            <a href="./portfolio/practical/form/02/index.html">
+                                <img src="./images/portfolio-form-02.png" alt="네이버 회원가입 폼">
+                                <div class="overlay">naver 회원가입 form<span>제작방식: html/css</span></div>
+                            </a>
+                            <a href="./portfolio/practical/form/03/index.html">
+                                <img src="./images/portfolio-form-03.png" alt="네이버 밴드 로그인 폼">
+                                <div class="overlay">naver band 로그인 from<span>제작방식: html/css</span></div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section slide6">
+            <div class="slide_inner">
+                <div class="practicalWrap">
+                    <div class="practical_section hoverEffect">
+                        <div class="title">hover effect</div>
+                        <div class="imgsWrap" uk-lightbox="animation: fade">
+                            <a href="./portfolio/practical/hover-effect/01/index.html">
+                                <img src="./images/portfolio-hover-01.png" alt="모바일 앱 hover effect">
+                                <div class="overlay">mobile app hogver effect<span>제작방식: html/css</span></div>
+                            </a>
+                            <a href="./portfolio/practical/hover-effect/02/index.html">
+                                <img src="./images/portfolio-hover-02.png" alt="조던 hover effect">
+                                <div class="overlay">jordan hogver effect<span>제작방식: html/css</span></div>
+                            </a>
+                            <a href="./portfolio/practical/hover-effect/03/index.html">
+                                <img src="./images/portfolio-hover-03.png" alt="hover flip animation">
+                                <div class="overlay">hogver sns logo rotate effect<span>제작방식: html/css</span></div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="practical_section navigation">
+                        <div class="title">navigation</div>
+                        <div class="imgsWrap" uk-lightbox="animation: fade">
+                            <a href="./portfolio/practical/navigation/01/index.html">
+                                <img src="./images/portfolio-navi-01.png" alt="ybm navigation">
+                                <div class="overlay">ybm toic navigation<span>제작방식: html/css/jquery</span></div>
+                            </a>
+                            <a href="./portfolio/practical/navigation/02/index.html">
+                                <img src="./images/portfolio-navi-02.png" alt="투명 navigation">
+                                <div class="overlay">opacity navigation<span>제작방식: html/css</span></div>
+                            </a>
+                            <a href="./portfolio/practical/navigation/03/index.html">
+                                <img src="./images/portfolio-navi-03.png" alt="아이콘 navigation">
+                                <div class="overlay">icon navigation<span>제작방식: html/css</span></div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="practical_section prototype">
+                        <div class="title">prototype</div>
+                        <div class="imgsWrap" uk-lightbox="animation: fade">
+                            <a href="./portfolio/practical/prototype/01/index.html">
+                                <img src="./images/portfolio-prototype-01.png" alt="국내여행 슬라이드">
+                                <div class="overlay">domestic travel slide<span>제작방식: html/css/jquery</span></div>
+                            </a>
+                            <a href="./portfolio/practical/prototype/02/index.html">
+                                <img src="./images/portfolio-prototype-02.png" alt="비디오 랜딩페이지">
+                                <div class="overlay">video landing page<span>제작방식: html/css/jquery</span></div>
+                            </a>
+                            <a href="./portfolio/practical/prototype/03/index.html">
+                                <img src="./images/portfolio-prototype-03.png" alt="지브리 애니메이션 랜딩페이지">
+                                <div class="overlay">ghibli animation landing page<span>제작방식: html/css/jquery</span></div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section slide7">
+            <div class="slide_inner">
+                <h1>contact</h1>
+                <span>시간 내어 제 포트폴리오를 봐주셔서 감사합니다. <br> 아직 부족 하지만 점차 성장하는 사람이 되도록 하겠습니다.</span>
+                <div class="contactWrap">
+                    <div class="contact_img">
+                        <img src="https://via.placeholder.com/330x430" alt="예시">
+                    </div>
+                    <div class="contact_text">
+                        <ul>
+                            <li>name: 이어령</li>
+                            <li>Email: <span>djfud7696@naver.com</span></li>
+                            <li>phone-number: 010-6722-7696</li>
+                            <li><a href="#none">이력서 download</a></li>
+                        </ul>
+                        <p>
+                            위 이메일 혹은 제 전화번호로 연락 부탁드립니다.<br>
+                            감사합니다.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- jquery -->
+    <script src="./js/jquery-3.6.1.min.js"></script>
+    <!-- featherlight js-->
+    <script src="./js/featherlight/featherlight.js"></script>
+    <!-- uikit js -->
+    <script src="./js/uikit/uikit.min.js"></script>
+    <!--fullpage js -->
+    <script src="./js/jquery.fullPage.js"></script>
+
+    <!-- swiper js-->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+    <!-- js -->
+    <script src="index.js"></script>
+
+</body>
+
+</html>
