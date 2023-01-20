@@ -20,14 +20,14 @@
     <!-- featherlight css -->
     <link rel="stylesheet" href="./js/featherlight/featherlight.css">
     <!-- index css -->
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <div class="custom_cursor">
     <div class="circle"></div>
 </div>
 
 <body>
-    <div id="mouse-cursor">
+    <div id="mouseCursor">
         <div></div>
     </div>
     <header class="header">
@@ -41,7 +41,7 @@
                         <a href="#skills">my skills</a>
                         <a href="#portfolio">publishing</a>
                         <a href="#practical">practical publishing</a>
-                        <a id="point2" href="#contact">contect</a>
+                        <a href="#contact">contect</a>
                     </div>
                     <img src="./images/footer_fig.png" alt="logo">
                 </div>
@@ -57,7 +57,7 @@
         <div class="section slide1 active">
             <div class="slide_inner">
                 <span>반갑습니다. <br> 웹퍼블리셔 이어령입니다.</span>
-                <div class="imgWrap">
+                <div class="img_wrap">
                     <img class="bgImg bg_img1" src="./images/title_top.png" alt="lee eo ryoung">
                     <img class="bgImg bg_img2" src="./images/title_bottom.png" alt="portfolio">
                     <img class="bgImg bg_img3" src="./images/welcomefigure_1.png" alt="back image1">
@@ -68,7 +68,7 @@
         </div>
         <div class="section slide2">
             <div class="slide_inner">
-                <div class="profileWrap">
+                <div class="profile_wrap">
                     <div class="profile_image">
                         <div class="tooltip">
                             <div class="tip_box"># 꼼꼼함</div>
@@ -129,20 +129,20 @@
                     </div>
                     <div class="sub_menu">
                         <!-- programing -->
-                        <div id="proSubMenu1"><span></span>html</div>
-                        <div id="proSubMenu2"><span></span>css</div>
-                        <div id="proSubMenu3"><span></span>js</div>
-                        <div id="proSubMenu4"><span></span>cafe24</div>
+                        <div class="sub_item" id="proSubMenu1"><span></span>html</div>
+                        <div class="sub_item" id="proSubMenu2"><span></span>css</div>
+                        <div class="sub_item" id="proSubMenu3"><span></span>js</div>
+                        <div class="sub_item" id="proSubMenu4"><span></span>cafe24</div>
                         <!-- design -->
-                        <div id="desginSubMenu1"><span></span>photoshop illustrator</div>
-                        <div id="desginSubMenu2"><span></span>zeplin</div>
-                        <div id="desginSubMenu3"><span></span>figma</div>
+                        <div class="sub_item" id="desginSubMenu1"><span></span>photoshop illustrator</div>
+                        <div class="sub_item" id="desginSubMenu2"><span></span>zeplin</div>
+                        <div class="sub_item" id="desginSubMenu3"><span></span>figma</div>
                         <!-- study -->
-                        <div id="studySubMenu1"><span></span>vue</div>
-                        <div id="studySubMenu2"><span></span>react</div>
-                        <div id="studySubMenu3"><span></span>sass,scss</div>
-                        <div id="studySubMenu4"><span></span>three.js</div>
-                        <div id="studySubMenu5"><span></span>gsap</div>
+                        <div class="sub_item" id="studySubMenu1"><span></span>vue</div>
+                        <div class="sub_item" id="studySubMenu2"><span></span>react</div>
+                        <div class="sub_item" id="studySubMenu3"><span></span>sass,scss</div>
+                        <div class="sub_item" id="studySubMenu4"><span></span>three.js</div>
+                        <div class="sub_item" id="studySubMenu5"><span></span>gsap</div>
                     </div>
                 </div>
                 <!-- modal -->
@@ -389,10 +389,10 @@
         <div class="section slide5">
             <div class="slide_inner">
                 <h1>practical publishing</h1>
-                <div class="practicalWrap">
+                <div class="practical_wrap">
                     <div class="practical_section card">
                         <div class="title">card ui</div>
-                        <div class="imgsWrap" uk-lightbox="animation: fade">
+                        <div class="imgs_wrap" uk-lightbox="animation: fade">
                             <a href="./portfolio/practical/card-ui/01/index.html">
                                 <img src="./images/portfolio-cardui-01.png" alt="남성쇼핑몰 카드 ui">
                                 <div class="overlay">men's shopping mall card ui<span>제작방식: html/css</span></div>
@@ -409,7 +409,7 @@
                     </div>
                     <div class="practical_section form">
                         <div class="title">form</div>
-                        <div class="imgsWrap" uk-lightbox="animation: fade">
+                        <div class="imgs_wrap" uk-lightbox="animation: fade">
                             <a href="./portfolio/practical/form/01/index.html">
                                 <img src="./images/portfolio-form-01.png" alt="반응형 상담신청서 폼">
                                 <div class="overlay">반응형 상담신청서 form<span>제작방식: html/css</span></div>
@@ -429,10 +429,10 @@
         </div>
         <div class="section slide6">
             <div class="slide_inner">
-                <div class="practicalWrap">
+                <div class="practical_wrap">
                     <div class="practical_section hoverEffect">
                         <div class="title">hover effect</div>
-                        <div class="imgsWrap" uk-lightbox="animation: fade">
+                        <div class="imgs_wrap" uk-lightbox="animation: fade">
                             <a href="./portfolio/practical/hover-effect/01/index.html">
                                 <img src="./images/portfolio-hover-01.png" alt="모바일 앱 hover effect">
                                 <div class="overlay">mobile app hogver effect<span>제작방식: html/css</span></div>
@@ -449,7 +449,7 @@
                     </div>
                     <div class="practical_section navigation">
                         <div class="title">navigation</div>
-                        <div class="imgsWrap" uk-lightbox="animation: fade">
+                        <div class="imgs_wrap" uk-lightbox="animation: fade">
                             <a href="./portfolio/practical/navigation/01/index.html">
                                 <img src="./images/portfolio-navi-01.png" alt="ybm navigation">
                                 <div class="overlay">ybm toic navigation<span>제작방식: html/css/jquery</span></div>
@@ -466,7 +466,7 @@
                     </div>
                     <div class="practical_section prototype">
                         <div class="title">prototype</div>
-                        <div class="imgsWrap" uk-lightbox="animation: fade">
+                        <div class="imgs_wrap" uk-lightbox="animation: fade">
                             <a href="./portfolio/practical/prototype/01/index.html">
                                 <img src="./images/portfolio-prototype-01.png" alt="국내여행 슬라이드">
                                 <div class="overlay">domestic travel slide<span>제작방식: html/css/jquery</span></div>
@@ -488,7 +488,7 @@
             <div class="slide_inner">
                 <h1>contact</h1>
                 <span>시간 내어 제 포트폴리오를 봐주셔서 감사합니다. <br> 아직 부족 하지만 점차 성장하는 사람이 되도록 하겠습니다.</span>
-                <div class="contactWrap">
+                <div class="contact_wrap">
                     <div class="contact_img">
                         <img src="https://via.placeholder.com/330x430" alt="예시">
                     </div>
@@ -539,7 +539,7 @@
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
 
     <!-- js -->
-    <script src="index.js"></script>
+    <script src="script.js"></script>
 
 </body>
 
